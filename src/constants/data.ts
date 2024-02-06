@@ -1,33 +1,24 @@
+import arcane from '../assets/cyber-city.jpg';
+import cat from '../assets/colourful-cat.jpg';
+import ninja from '../assets/ninja.jpg';
+import femaleNinja from '../assets/female-ninja.jpg';
+import promptView from '../assets/prompt-view.jpg';
+
 export const homeImages = [
   {
     id: 'art-18',
-    path: '../assets/arcane-architect.jpg',
+    path: arcane,
     title: 'Arcane Architect',
   },
   {
     id: 'art-2',
-    path: '../assets/colourful-cat.jpg',
+    path: cat,
     title: 'Colorful Cat',
   },
   {
     id: 'art-20',
-    path: '../assets/ninja.jpg',
+    path: ninja,
     title: 'Cyborg Ninja',
-  },
-];
-
-export const navLinks = [
-  {
-    to: '/',
-    label: 'Home',
-  },
-  {
-    to: '/artes',
-    label: 'Artes',
-  },
-  {
-    to: '/exemplos',
-    label: 'Exemplos',
   },
 ];
 
@@ -41,14 +32,14 @@ export const allCategories = [
 ];
 
 export const imgPrompt = {
-  path: '../assets/prompt-view.jpg',
+  path: promptView,
   alt: 'detalhes de sobre uma imagem criada por IA, com ênfase no prompt de contorno verde',
 };
 
 export const example = [
   {
     id: 'ex-1-start',
-    path: '../assets/ninja.jpg',
+    path: ninja,
     prompt:
       'anime style illustration of techwear, cyborg ninja, holding a sword, wearing a mask, striking pose, all limbs appear in frame, japanese vibe, detailed design for streetwear and urban style t-shirt design, solid color background, etc pro vector',
     title: 'Estado Inicial',
@@ -56,7 +47,7 @@ export const example = [
   },
   {
     id: 'ex-1-end',
-    path: '../assets/female-ninja.jpg',
+    path: femaleNinja,
     prompt:
       'Create an art Poster, vintage anime/graphic novel styled illustration of a tech-wear, Filipina, Spanish, Japanese female cyborg ninja, wielding a plasma energized katana, striking pose, all limbs appear in frame, Japanese vibe, detailed design for streetwear and urban style Chinese ink wash painting, urban background',
     title: 'Resultado Final',
