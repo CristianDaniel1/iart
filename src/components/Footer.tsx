@@ -7,7 +7,7 @@ export const Footer = () => {
         Desenvolvido por{' '}
         <span className="text-violet-500">Cristian Daniel</span>
       </p>
-      <div className="my-4 ml-6 mr-2">
+      <div className="my-4 mx-4">
         <a
           href="#inicio"
           className="p-2 bg-violet-800 block rounded-md border-2 border-transparent hover:bg-violet-900 hover:scale-105 hover:border-primary duration-200"

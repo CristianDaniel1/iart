@@ -1,4 +1,4 @@
-import arcane from '../assets/cyber-city.jpg';
+import arcane from '../assets/arcane-architect.jpg';
 import cat from '../assets/colourful-cat.jpg';
 import ninja from '../assets/ninja.jpg';
 import femaleNinja from '../assets/female-ninja.jpg';
