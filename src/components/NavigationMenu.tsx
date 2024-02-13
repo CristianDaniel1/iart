@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { Navigation } from './Navigation.tsx';
-import { FavoritesButton } from './Favorites/FavoritesButton.tsx';
+import { FavoritesButton } from './favorites/FavoritesButton.tsx';
 import { HamburgerIcon } from '../icons/HamburgerIcon.tsx';
 import { CloseIcon } from '../icons/CloseIcon.tsx';
 

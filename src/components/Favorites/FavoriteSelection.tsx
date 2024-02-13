@@ -1,7 +1,7 @@
 import { FavoriteIcon } from '../../icons/FavoriteIcon.tsx';
 import { favoritesStore } from '../../store/artsStore.ts';
 
-import { type ArtProps as FavoritesObject } from '../Arts/Art.tsx';
+import { type ArtProps as FavoritesObject } from '../arts/Art.tsx';
 
 export const FavoriteSelection = (props: FavoritesObject) => {
   const favorites = favoritesStore(state => state.favorites);

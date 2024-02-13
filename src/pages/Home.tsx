@@ -1,5 +1,5 @@
 import heroImg from '../assets/cyber-city.jpg';
-import { ExploreSection } from '../components/Sections/ExploreSection.tsx';
+import { ExploreSection } from '../components/sections/ExploreSection.tsx';
 
 export default function Home() {
   return (

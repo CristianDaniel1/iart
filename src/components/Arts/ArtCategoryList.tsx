@@ -1,5 +1,5 @@
-import { ArtCategory } from './ArtCategory';
-import { allCategories } from '../../constants/data';
+import { ArtCategory } from './ArtCategory.tsx';
+import { allCategories } from '../../constants/data.ts';
 
 type ArtCategoryListProps = {
   onSetCateg: (categ: string) => void;

@@ -1,5 +1,5 @@
-import { ExamplesSection } from '../components/Sections/ExamplesSection.tsx';
-import { HowToCreateSection } from '../components/Sections/HowToCreateSection.tsx';
+import { ExamplesSection } from '../components/sections/ExamplesSection.tsx';
+import { HowToCreateSection } from '../components/sections/HowToCreateSection.tsx';
 
 export default function Examples() {
   return (

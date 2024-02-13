@@ -1,5 +1,5 @@
 import { NavigationMenu } from './NavigationMenu.tsx';
-import { ArtDetailsModal } from './Arts/ArtDetailsModal.tsx';
+import { ArtDetailsModal } from './arts/ArtDetailsModal.tsx';
 
 export const Header = () => {
   return (

@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { type ArtProps as FavoritesObject } from '../components/Arts/Art.tsx';
+import { type ArtProps as FavoritesObject } from '../components/arts/Art.tsx';
 
 type ArtDetails = {
   isOpen: boolean;

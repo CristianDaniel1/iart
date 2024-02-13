@@ -6,7 +6,7 @@ import { CloseIcon } from '../../icons/CloseIcon.tsx';
 import { Modal } from '../UI/Modal.tsx';
 import { LoadingMessage } from '../UI/LoadingMessage.tsx';
 import { ErrorMessage } from '../UI/ErrorMessage.tsx';
-import { FavoriteSelection } from '../Favorites/FavoriteSelection.tsx';
+import { FavoriteSelection } from '../favorites/FavoriteSelection.tsx';
 
 export const ArtDetails = () => {
   const artId = useArtDetailsStore(state => state.artId);

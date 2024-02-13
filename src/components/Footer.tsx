@@ -1,4 +1,4 @@
-import { UpIcon } from '../icons/UpIcon';
+import { UpIcon } from '../icons/UpIcon.tsx';
 
 export const Footer = () => {
   return (

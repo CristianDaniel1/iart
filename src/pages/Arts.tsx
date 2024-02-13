@@ -3,12 +3,12 @@ import { useQuery } from '@tanstack/react-query';
 
 import { fetchArts } from '../util/http.ts';
 import { Section } from '../components/Section.tsx';
-import { Art } from '../components/Arts/Art.tsx';
-import { ArtsInfo } from '../components/Arts/ArtsInfo.tsx';
+import { Art } from '../components/arts/Art.tsx';
+import { ArtsInfo } from '../components/arts/ArtsInfo.tsx';
 
 import { ErrorMessage } from '../components/UI/ErrorMessage.tsx';
 import { LoadingMessage } from '../components/UI/LoadingMessage.tsx';
-import { ArtCategoryList } from '../components/Arts/ArtCategoryList.tsx';
+import { ArtCategoryList } from '../components/arts/ArtCategoryList.tsx';
 
 export default function Arts() {
   const [category, setCategory] = useState('Todas');

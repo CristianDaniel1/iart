@@ -1,6 +1,6 @@
 import { CloseIcon } from '../../icons/CloseIcon.tsx';
 import { favoritesStore } from '../../store/artsStore.ts';
-import { Art } from '../Arts/Art.tsx';
+import { Art } from '../arts/Art.tsx';
 import { Button } from '../UI/Button.tsx';
 import { Modal } from '../UI/Modal.tsx';
 
